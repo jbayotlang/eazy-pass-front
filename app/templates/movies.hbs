@@ -1,0 +1,19 @@
+<a id="create-movie" class="btn btn-success">Create new movie</a>
+<table class="table .table-striped">
+  <thead>
+    <tr>
+      <th>Movie Name</th>
+      <th>Official Website</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each movie in movies}}
+    <tr>
+      <td><a href="#/movie/{{unbound movie.id}}">{{movie.name}}</a></td>
+
+      <td><a href="{{officialSite}}">Official Site</a></td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
+

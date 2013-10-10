@@ -1,0 +1,11 @@
+{
+  "name": "eazy-pass-front-ember-yeo",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "bootstrap": "*"
+  },
+  "devDependencies": {
+    "ember-mocha-adapter": "0.1.1"
+  }
+}

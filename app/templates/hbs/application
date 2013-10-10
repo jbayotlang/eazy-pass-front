@@ -1,0 +1,26 @@
+<div id="header">
+  <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <h3>Menu</h3>
+    <a href="#">Celery seakale</a>
+    <a href="#">Dulse daikon</a>
+    <a href="#">Zucchini garlic</a>
+    <a href="#">Catsear azuki bean</a>
+    <a href="#">Dandelion bunya</a>
+    <a href="#">Rutabaga</a>
+  </nav>
+</div>
+<div id="content">
+  <section class="buttonset">
+    <h2>Push Menus</h2>
+      <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+      <button id="showLeftPush">Show/Hide Left Push Menu</button>
+      <button id="showRightPush">Show/Hide Right Push Menu</button>
+  </section>
+  <div class="container">
+    <div class="row">
+      {{outlet}}
+    </div>
+  </div>
+</div>
+
+
